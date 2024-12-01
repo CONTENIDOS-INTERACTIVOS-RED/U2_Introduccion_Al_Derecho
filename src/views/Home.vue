@@ -20,11 +20,12 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-5.py-xl-5.text-start
-              p.home-main-title UNIDAD 1
-              h1.home-title.mb-4.text-uppercase Fundamentos del Pensamiento Algorítmico
-              p.descripcion.mb-4 En esta primera unidad, se estudiarán los fundamentos esenciales del pensamiento algorítmico, destacando su rol en la resolución de problemas mediante el diseño de algoritmos estructurados. Además, se explorarán conceptos clave como los algoritmos, la lógica detrás de su construcción, y sus formas de representación a través de pseudocódigo y diagramas de flujo.
-
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4 Prepárate para aplicar estos principios en diversas áreas, desde la informática hasta la administración y educación. #[strong ¡Inicia tu viaje para dominar la creación de soluciones eficientes y prácticas!]
+              p.home-main-title Introducción al derecho
+              h1.home-title.mb-4.text-uppercase Fuentes del Derecho y su jerarquía en Colombia
+              p.descripcion.mb-4 Desde los orígenes de las sociedades, la necesidad de normas que regulen la convivencia ha sido una constante. En esta segunda unidad, exploraremos las fuentes del Derecho y su organización jerárquica, elementos fundamentales para comprender cómo se originan y legitiman las normas jurídicas en Colombia. Abordaremos la relevancia de la ley, la jurisprudencia, la costumbre y la doctrina, analizando su interacción y la manera en que forman un sistema que garantiza el orden y la justicia. 
+                br
+                br
+                |#[b ¡Prepárese para descubrir las bases que sustentan el Derecho y su aplicación en la realidad social y jurídica!]
 
 
               .button-container.mt-auto

@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(:titulo="'Unidad 2. Fuentes del Derecho y su jerarquía en Colombia'" :subTitulo="'3. Derecho internacional y su incorporación al sistema jurídico colombiano'")
-  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.pb-0.overflow-hidden
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.pb-0.overflow-hidden.bg-3
     p.mb-4 La relación entre el derecho interno y el derecho internacional, ha sido un tema de discusión que ha dado lugar a dos teorías principales:
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-6.mb-4(data-aos="zoom-in-up")

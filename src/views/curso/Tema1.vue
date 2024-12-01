@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(:titulo="'Unidad 2. Fuentes del Derecho y su jerarquía en Colombia'" :subTitulo="'1. Fuentes del Derecho: ley, jurisprudencia, costumbre y doctrina'")
-  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.pb-0.overflow-hidden
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.pb-0.overflow-hidden.bg-1
     .row.mb-5
       .col-lg-4.order-lg-2
         figure
@@ -67,16 +67,16 @@
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/11.svg', alt='Texto que describa la imagen')
-      .tarjeta.color-acento-botones.p-3(x="13.4%" y="77.5%" numero="+")
+      .tarjeta.p-3(x="13.4%" y="77.5%" numero="+" style="background-color: #ffffff")
         .h5.mb-2 Legislación
         p La ley es la principal fuente formal del Derecho en la mayoría de los sistemas jurídicos, incluido el colombiano. Es la norma escrita promulgada por el poder legislativo que regula una amplia gama de actividades sociales, económicas y políticas. La legislación tiene la ventaja de ser clara y precisa, proporcionando un marco normativo que facilita su interpretación y aplicación. La Constitución Política de Colombia es el ejemplo más importante de legislación, porque establece los principios fundamentales que rigen todo el sistema jurídico.)
-      .tarjeta.color-acento-botones.p-3(x="33.5%" y="77.5%" numero="+")
+      .tarjeta.p-3(x="33.5%" y="77.5%" numero="+" style="background-color: #ffffff")
         .h5.mb-2 Costumbre
         p La costumbre es una práctica reiterada y aceptada por la comunidad que, con el tiempo, adquiere fuerza normativa. En ausencia de una ley escrita, la costumbre puede funcionar como una fuente supletoria, llenando vacíos legales y proporcionando soluciones a problemas que la legislación no ha previsto. Abelardo Torré señala que la costumbre jurídica, cuando es aceptada por el sistema legal, puede tener la misma fuerza que una ley (Torré, 1944).
-      .tarjeta.color-acento-botones.p-3(x="53.6%" y="77.5%" numero="+")
+      .tarjeta.p-3(x="53.6%" y="77.5%" numero="+" style="background-color: #ffffff")
         .h5.mb-2 Jurisprudencia
         p Aunque no siempre se considera una fuente formal en sentido estricto, la jurisprudencia, es decir, las decisiones de los tribunales, tiene un papel fundamental en la interpretación y aplicación del Derecho. Los jueces, al resolver casos concretos, crean precedentes que guían la interpretación de las normas en casos futuros. En muchos sistemas jurídicos, incluyendo el colombiano, la jurisprudencia de los altos tribunales como la Corte Constitucional, la Corte Suprema de Justicia o el Consejo de Estado, tiene un peso significativo en la interpretación de la ley.
-      .tarjeta.color-acento-botones.p-3(x="73.7%" y="77.5%" numero="+")
+      .tarjeta.p-3(x="73.7%" y="77.5%" numero="+" style="background-color: #ffffff")
         .h5.mb-2 Doctrina
         p Al igual que la jurisprudencia, la doctrina no es considerada una fuente formal en sentido estricto, pero ejerce una influencia considerable sobre la interpretación del Derecho. La doctrina se refiere a los estudios, opiniones y teorías de juristas y académicos, que ayudan a esclarecer el significado y alcance de las normas jurídicas. Aunque no tiene fuerza obligatoria, la doctrina puede influir en los legisladores y jueces en la toma de decisiones, especialmente en áreas donde la legislación es ambigua o insuficiente.
     p.mb-4 La clasificación de las fuentes del Derecho en materiales y formales, nos proporciona una visión integral del proceso de creación normativa:

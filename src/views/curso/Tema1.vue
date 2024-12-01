@@ -24,11 +24,11 @@
       .col-lg-7.order-2
         p.mb-4(data-aos="fade-right") Las fuentes del Derecho constituyen un tema central en el estudio jurídico, al referirse al origen y legitimación de las normas que rigen la sociedad. Diversos enfoques y teorías han intentado explicar su naturaleza, desde la perspectiva histórica y social de Savigny, que enfatiza la conciencia colectiva, hasta la teoría normativa de Kelsen, que ve al Derecho como un sistema jerárquico de normas. A continuación, en el PDF Concepto de fuentes, se exploran estas y otras concepciones, destacando la relevancia de las fuentes formales, materiales e históricas, así como su impacto en la creación y aplicación del Derecho en diferentes contextos sociales y temporales.
 
-        a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+        a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
           .anexo__icono(:style="{'background-color': '#FCDFDB'}")
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p <strong>Anexo. </strong> Teorías resolución de conflictos.
+            p <strong>Anexo. </strong> Clasificación de las fuentes del Derecho.
 
       .col-lg-5.col-7.mb-lg-0.mb-3
         figure(data-aos="zoom-in")
@@ -51,13 +51,13 @@
       .row.justify-content-center.align-items-center
         .col-lg-7.order-2
           h4 Clasificación de las fuentes del Derecho
-          p.mb-4(data-aos="fade-right") En el PDF Clasificación de las fuentes del Derecho, se encontrará un análisis detallado sobre la clasificación de las fuentes del Derecho, abordando tanto las fuentes reales o materiales como las fuentes formales. Se explicará cómo las fuentes reales incluyen factores externos como circunstancias históricas, sociales, económicas y culturales que influyen en la creación de normas jurídicas, mientras que las fuentes formales se enfocan en los procedimientos y mecanismos a través de los cuales las normas adquieren validez y se aplican en el sistema jurídico. También se explorarán las aportaciones de destacados juristas y teóricos, como Abelardo Torré, François Gény y Legaz y Lacambra, quienes han contribuido a comprender la distinción y la importancia de estas fuentes en el desarrollo y la coherencia del Derecho.
+          p.mb-4(data-aos="fade-right") En el PDF Clasificación de las fuentes del Derecho, se encontrará un análisis detallado sobre la clasificación de las fuentes del Derecho, abordando tanto las fuentes reales o materiales como las fuentes formales. Se explicará cómo las fuentes reales incluyen factores externos como circunstancias históricas, sociales, económicas y culturales que influyen en la creación de normas jurídicas, mientras que las fuentes formales se enfocan en los procedimientos y mecanismos a través de los cuales las normas adquieren validez y se aplican en el sistema jurídico. También se explorarán las aportaciones de destacados juristas y teóricos, como Abelardo Torré, Franaçois Gény y Legaz y Lacambra, quienes han contribuido a comprender la distinción y la importancia de estas fuentes en el desarrollo y la coherencia del Derecho.
 
           a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
             .anexo__icono(:style="{'background-color': '#FCDFDB'}")
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
-              p <strong>Anexo. </strong> Clasificación de las fuentes del Derecho
+              p <strong>Anexo. </strong> Concepto de fuentes.
 
         .col-lg-5.col-7.mb-lg-0.mb-3
           figure(data-aos="zoom-in")
@@ -67,9 +67,18 @@
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/11.svg', alt='Texto que describa la imagen')
-      .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor Curabitur vestibulum tortor quis nisi
+      .tarjeta.color-acento-botones.p-3(x="13.4%" y="77.5%" numero="+")
+        .h5.mb-2 Legislación
+        p La ley es la principal fuente formal del Derecho en la mayoría de los sistemas jurídicos, incluido el colombiano. Es la norma escrita promulgada por el poder legislativo que regula una amplia gama de actividades sociales, económicas y políticas. La legislación tiene la ventaja de ser clara y precisa, proporcionando un marco normativo que facilita su interpretación y aplicación. La Constitución Política de Colombia es el ejemplo más importante de legislación, porque establece los principios fundamentales que rigen todo el sistema jurídico.)
+      .tarjeta.color-acento-botones.p-3(x="33.5%" y="77.5%" numero="+")
+        .h5.mb-2 Costumbre
+        p La costumbre es una práctica reiterada y aceptada por la comunidad que, con el tiempo, adquiere fuerza normativa. En ausencia de una ley escrita, la costumbre puede funcionar como una fuente supletoria, llenando vacíos legales y proporcionando soluciones a problemas que la legislación no ha previsto. Abelardo Torré señala que la costumbre jurídica, cuando es aceptada por el sistema legal, puede tener la misma fuerza que una ley (Torré, 1944).
+      .tarjeta.color-acento-botones.p-3(x="53.6%" y="77.5%" numero="+")
+        .h5.mb-2 Jurisprudencia
+        p Aunque no siempre se considera una fuente formal en sentido estricto, la jurisprudencia, es decir, las decisiones de los tribunales, tiene un papel fundamental en la interpretación y aplicación del Derecho. Los jueces, al resolver casos concretos, crean precedentes que guían la interpretación de las normas en casos futuros. En muchos sistemas jurídicos, incluyendo el colombiano, la jurisprudencia de los altos tribunales como la Corte Constitucional, la Corte Suprema de Justicia o el Consejo de Estado, tiene un peso significativo en la interpretación de la ley.
+      .tarjeta.color-acento-botones.p-3(x="73.7%" y="77.5%" numero="+")
+        .h5.mb-2 Doctrina
+        p Al igual que la jurisprudencia, la doctrina no es considerada una fuente formal en sentido estricto, pero ejerce una influencia considerable sobre la interpretación del Derecho. La doctrina se refiere a los estudios, opiniones y teorías de juristas y académicos, que ayudan a esclarecer el significado y alcance de las normas jurídicas. Aunque no tiene fuerza obligatoria, la doctrina puede influir en los legisladores y jueces en la toma de decisiones, especialmente en áreas donde la legislación es ambigua o insuficiente.
     p.mb-4 La clasificación de las fuentes del Derecho en materiales y formales, nos proporciona una visión integral del proceso de creación normativa:
     .px-4.px-md-5.pb-md-3
       .row.justify-content-center.align-items-stretch.mb-5

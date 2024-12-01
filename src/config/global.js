@@ -30,26 +30,21 @@ export default {
         icono: 'far fa-file-alt',
         unidad: 'UNIDAD 2.',
         numero: '1',
-        titulo: 'Definición de algoritmo',
+        titulo:
+          'Fuentes del Derecho: ley, jurisprudencia, costumbre y doctrina',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Sistema',
+            titulo: 'El Derecho y su relación con otras ciencias ',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Pensamiento Sistémico o lógico',
+            titulo: 'Clasificación de las fuentes del Derecho',
             hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Eficiencia de los algoritmos',
-            hash: 't_1_3',
           },
         ],
       },
@@ -58,20 +53,33 @@ export default {
         icono: 'far fa-file-alt',
         unidad: 'UNIDAD 2.',
         numero: '2',
-        titulo: 'Lógica algorítmica: secuencias, condiciones, ciclos',
+        titulo:
+          'Jerarquía normativa: Constitución, leyes, decretos y resoluciones',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Metodología para la solución de algoritmos',
+            titulo: 'La Constitución: norma de normas',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Secuencias, condiciones, ciclos',
+            titulo: 'Leyes nacionales: estatutarias, orgánicas y ordinarias',
             hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Decretos y resoluciones',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Costumbre, jurisprudencia y doctrina',
+            hash: 't_2_4',
           },
         ],
       },
@@ -81,17 +89,16 @@ export default {
         unidad: 'UNIDAD 2.',
         numero: '3',
         titulo:
-          'Representación de algoritmos: pseudocódigo y diagramas de flujo',
+          'Derecho internacional y su incorporación al sistema jurídico colombiano',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Representación de algoritmos: pseudocódigo y diagramas de flujo',
-            hash: 't_3_1',
-          },
-        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        unidad: 'UNIDAD 2.',
+        numero: '',
+        titulo: 'Sintesis',
+        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -141,73 +148,74 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Algoritmo',
+      termino: 'Constitución',
       significado:
-        'secuencia de pasos lógicos, finitos que resuelven un problema particular.',
+        'norma suprema de un sistema jurídico que establece los principios y derechos fundamentales de un Estado y organiza su estructura y funcionamiento.',
     },
     {
-      termino: 'Ciclos',
+      termino: 'Costumbre',
       significado:
-        'conjunto de instrucciones de repetición que se llevan a cabo mientras se cumple una condición.',
+        'práctica repetida y constante en una comunidad que, por su aceptación general, se convierte en fuente de derecho y tiene carácter normativo en ausencia de ley.',
     },
     {
-      termino: 'Condiciones',
+      termino: 'Derecho Internacional',
       significado:
-        'etapa en la que el algoritmo debe tomar una decisión y según la respuesta obtenida continuará su proceso.',
+        'conjunto de normas que regulan las relaciones entre Estados y otros sujetos internacionales, integrándose al derecho interno bajo ciertos principios.',
     },
     {
-      termino: 'Constante',
+      termino: 'Derecho Nacional',
       significado:
-        'es una variable almacenada en memoria y cuyo contenido no cambiará durante todo el proceso de ejecución del algoritmo.',
+        'conjunto de normas jurídicas aplicables dentro de un Estado, establecidas por sus instituciones y adaptadas a su contexto particular.',
     },
     {
-      termino: 'Diagrama de flujo',
+      termino: 'Doctrina',
       significado:
-        'representación gráfica de un proceso, ilustran paso a paso la lógica que debe seguir el programa de manera sencilla.',
+        'conjunto de estudios y opiniones de expertos en derecho que ayudan a interpretar y aplicar las normas jurídicas, aunque no tienen carácter vinculante.',
     },
     {
-      termino: 'Eficiencia',
-      significado: 'seleccionar la manera óptima para resolver un problema.',
+      termino: 'Fuente del Derecho',
+      significado:
+        'origen o causa de una norma jurídica que otorga validez y legitimidad al ordenamiento jurídico; incluye ley, costumbre, jurisprudencia y doctrina.',
     },
     {
-      termino: 'Identificador',
+      termino: 'Ius Cogens',
       significado:
-        'corresponde al nombre asignado a una variable en la memoria',
+        'normas imperativas de derecho internacional que prevalecen sobre cualquier norma interna o internacional contraria, como la prohibición de la esclavitud.',
     },
     {
-      termino: 'Memoria',
+      termino: 'Jerarquía Normativa',
       significado:
-        'espacio reservado dentro del sistema que contiene un nombre y una variable',
+        'organización de las normas jurídicas en un sistema jurídico, estableciendo un orden de prevalencia de acuerdo con su rango.',
     },
     {
-      termino: 'Proceso',
+      termino: 'Jurisprudencia',
       significado:
-        'conjunto de instrucciones que "manipulan" los datos y entregan la solución al problema.',
+        'conjunto de decisiones de los tribunales, especialmente de las altas cortes, que interpretan la ley y establecen precedentes para casos futuros.',
     },
     {
-      termino: 'Programa',
+      termino: 'Ley',
       significado:
-        '"Conjunto de instrucciones que sigue la computadora para alcanzar un resultado específico" (Von Neumann 1946)',
+        'Ley	norma dictada por una autoridad legislativa con carácter obligatorio, que regula conductas y organiza la convivencia en un Estado.',
     },
     {
-      termino: 'Pseudocódigo',
+      termino: 'Monismo',
       significado:
-        'permite escribir de manera ordenada la secuencia de pasos lógicos que el algoritmo debe ejecutar, es universal lo que implica su comprensión y lectura sin requerirse un lenguaje de programación formal para su escritura',
+        'teoría que considera al derecho interno e internacional como un solo sistema, otorgando prevalencia al derecho internacional.',
     },
     {
-      termino: 'Secuencia',
+      termino: 'Norma',
       significado:
-        'ejecución de instrucciones de manera ordenada y jerárquica, lineal, una tras otra y sin interrupción hasta su finalización',
+        'disposición de carácter obligatorio establecida para regular conductas en una sociedad, pudiendo ser leyes, decretos, resoluciones, entre otros.',
     },
     {
-      termino: 'Sistema',
+      termino: 'Precedente',
       significado:
-        'conjunto de elementos que tienen una relación directa entre sí y que interactúan de manera coordinada para obtener un objetivo específico',
+        'decisión judicial que sirve de referencia y guía para resolver casos futuros similares, promoviendo la coherencia en la aplicación del derecho.',
     },
     {
-      termino: 'Variable',
+      termino: 'Teoría Dualista',
       significado:
-        'diferente a la constante, la variable sí cambia "varía" su valor según los procedimientos que se lleven a cabo dentro del algoritmo.',
+        'Teoría Dualista	teoría que considera al derecho internacional y al derecho interno como sistemas separados e independientes sin subordinación entre sí.',
     },
   ],
   complementario: [],

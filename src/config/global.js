@@ -123,11 +123,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/material.zip',
-      },
+      // {
+      //   icono: 'fas fa-file-download',
+      //   titulo: 'Descargar PDF',
+      //   download: 'downloads/material.zip',
+      // },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
@@ -142,8 +142,29 @@ export default {
   },
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Buenaga Ceballos, O. (2017). Introducción al derecho y a las ciencias jurídicas: ( ed.). Dykinson.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/58991',
+    },
+    {
+      referencia:
+        'Guerra Zúñiga, E. D. L. (2013). Introducción al derecho: ( ed.). Corporación de Estudios y Publicaciones.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/115029',
+    },
+    {
+      referencia:
+        'Nino, C. S. (2004). Introducción al análisis del derecho: (10 ed.). Editorial Ariel.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/100166',
+    },
+    {
+      referencia:
+        'Parra Lucán, M. A. (2015). Cuaderno I: la norma jurídica y fuentes del derecho: ( ed.). Dykinson.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/34318',
+    },
+    {
+      referencia:
+        'Villamar Cruz, V. (2018). Introducción al estudio del derecho: ( ed.). IURE Editores.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/40257',
     },
   ],
   glosario: [

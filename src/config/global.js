@@ -143,28 +143,21 @@ export default {
   referencias: [
     {
       referencia:
-        'Buenaga Ceballos, O. (2017). Introducción al derecho y a las ciencias jurídicas: ( ed.). Dykinson.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/58991',
+        'Metro, A. (2013) Las fuentes del derecho romano. Editorial: Dykinson.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/56852?col_q=ingenier%C3%ADa__4.0&col_code=ELC034&prev=col',
     },
     {
       referencia:
-        'Guerra Zúñiga, E. D. L. (2013). Introducción al derecho: ( ed.). Corporación de Estudios y Publicaciones.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/115029',
+        'Cáceres, E (2000) Lenguaje y derecho. Las normas jurídicas como sistema de enunciados Editorial: Instituto Politécnico Nacional.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/72267?col_q=ingenier%C3%ADa__4.0&col_code=ELC034&prev=col',
     },
     {
       referencia:
-        'Nino, C. S. (2004). Introducción al análisis del derecho: (10 ed.). Editorial Ariel.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/100166',
-    },
-    {
-      referencia:
-        'Parra Lucán, M. A. (2015). Cuaderno I: la norma jurídica y fuentes del derecho: ( ed.). Dykinson.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/34318',
-    },
-    {
-      referencia:
-        'Villamar Cruz, V. (2018). Introducción al estudio del derecho: ( ed.). IURE Editores.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/40257',
+        'Casado R. (2017) Derecho internacional (3a. ed.). Editorial: Difusora Larousse - Editorial Tecnos',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/46916?col_q=ingenier%C3%ADa__4.0&col_code=ELC034&prev=col',
     },
   ],
   glosario: [

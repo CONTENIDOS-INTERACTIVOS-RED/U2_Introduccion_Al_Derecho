@@ -39,18 +39,174 @@
         .row.p-5
           .col-lg-7.order-2
             h4 Tratados de derechos humanos ratificados por Colombia 
-            p La Constitución colombiana establece que los tratados de derechos humanos ratificados por el Congreso, que impiden la limitación de estos derechos en estados de excepción, tienen prioridad en el orden jurídico interno (Constitución Política de Colombia, 1991, art. 93). Por ejemplo, si se decreta un estado de emergencia en el país, los derechos fundamentales protegidos por tratados internacionales seguirán vigentes
+            p La Constitución colombiana establece que los tratados de derechos humanos ratificados por el Congreso, que impiden la limitación de estos derechos en estados de excepción, tienen prioridad en el orden jurídico interno (Constitución Política de Colombia, 1991, art. 93). Por ejemplo, si se decreta un estado de emergencia en el país, los derechos fundamentales protegidos por tratados internacionales seguirán vigentes.
           .col-lg-5.col-7.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/50.png', alt='Texto que describa la imagen')
     
+
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/61366?col_q=ingenier%C3%ADa__4.0&col_code=ELC034&prev=col" target="_blank" rel="noopener noreferrer") Pascual C. (2015) Norma Mundi Editorial Trotta. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/live/gHb0cqdLAg4?si=kcOS8DChF71mp_5b" target="_blank" rel="noopener noreferrer") Universidad autónoma del caribe (7 de octubre de 2022) Seminario de derecho internacional. 
+              
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema3',
-  data: () => ({
-    // variables de vue
-  }),
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Sistemas numéricos y álgebra de Boole',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              'Los tratados internacionales no tienen ninguna influencia en el sistema jurídico colombiano.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Verdadero',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Falso',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              'La jerarquía normativa evita que las normas inferiores contradigan las normas superiores.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Verdadero',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Falso',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              'La Constitución colombiana permite que la costumbre actúe como criterio auxiliar de interpretación.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Verdadero',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Falso',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              'El derecho internacional y el derecho nacional son completamente independientes según la teoría monista.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Verdadero',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Falso',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              'Los decretos emitidos por el Presidente en Colombia son de igual jerarquía que las leyes.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Verdadero',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Falso',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
 }
 </script>
+
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>

@@ -22,10 +22,8 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-5.py-xl-5.text-start
               p.home-main-title UNIDAD 2
               h1.home-title.mb-4.text-uppercase Fuentes del Derecho y su jerarquía en Colombia
-              p.descripcion.mb-4 Desde los orígenes de las sociedades, la necesidad de normas que regulen la convivencia ha sido una constante. En esta segunda unidad, exploraremos las fuentes del Derecho y su organización jerárquica, elementos fundamentales para comprender cómo se originan y legitiman las normas jurídicas en Colombia. Abordaremos la relevancia de la ley, la jurisprudencia, la costumbre y la doctrina, analizando su interacción y la manera en que forman un sistema que garantiza el orden y la justicia. 
-                br
-                br
-                |#[b ¡Prepárese para descubrir las bases que sustentan el Derecho y su aplicación en la realidad social y jurídica!]
+              p.descripcion.mb-4 Desde los orígenes de las sociedades, la necesidad de normas que regulen la convivencia ha sido una constante. En esta segunda unidad, exploraremos las fuentes del Derecho y su organización jerárquica, elementos fundamentales para comprender cómo se originan y legitiman las normas jurídicas en Colombia. Abordaremos la relevancia de la ley, la jurisprudencia, la costumbre y la doctrina, analizando su interacción y la manera en que forman un sistema que garantiza el orden y la justicia. Además, se profundizará en la importancia de la jerarquía normativa, donde la Constitución se erige como la norma suprema que rige y estructura todo el ordenamiento jurídico, asegurando que cada norma respete su supremacía. Esta unidad permitirá a los estudiantes entender cómo se incorporan las normas internacionales al sistema jurídico y su impacto en la protección de los derechos fundamentales.
+              p.descripcion #[b ¡Prepárese para descubrir las bases que sustentan el Derecho y su aplicación en la realidad social y jurídica!]
 
 
               .button-container.mt-auto

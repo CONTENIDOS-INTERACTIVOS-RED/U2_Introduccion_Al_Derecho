@@ -87,7 +87,7 @@
             img.custom-image-card__image(src="@/assets/curso/temas/12.png" alt="")
             .custom-image-card__text.p-4
               h4.mb-2.text-center Fuentes materiales
-              p.mb-0.text-center Nos explican los factores sociales, históricos y económicos que influyen en la creación de normas
+              p.mb-0.text-center Nos explican los factores sociales, históricos y económicos que influyen en la creación de normas.
         .col-lg-6.mb-4(data-aos="zoom-in-down")
           .custom-image-card.h-100
             img.custom-image-card__image(src="@/assets/curso/temas/13.png" alt="")
@@ -108,6 +108,24 @@
             .col-lg
               p.mb-0  Cossio también afirma que el carácter formal o material de las fuentes, depende de cómo se utilicen para resolver conflictos sociales. Su teoría egológica del Derecho, pone de manifiesto que las fuentes del Derecho integran aspectos normativos, axiológicos y empíricos, y que estos tres momentos están unidos intrínsecamente en la práctica jurídica. Las sentencias judiciales no solo deben cumplir con las normas legales, sino que deben reflejar los valores y las condiciones socioeconómicas del momento, lo que les otorga una fuerza de convicción adicional.
 
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/63109?col_q=ingenier%C3%ADa__4.0&col_code=ELC034&prev=col" target="_blank" rel="noopener noreferrer") Celador, Ó. (2011) Perspectivas actuales de las fuentes del derecho. Editorial: Dykinson
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/V5u2A9Zqf8g?si=XnBcVbE7LqpypKRy" target="_blank" rel="noopener noreferrer") ULLAudiovisual (10 de mayo de 2022) Las fuentes del derecho
+              
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>

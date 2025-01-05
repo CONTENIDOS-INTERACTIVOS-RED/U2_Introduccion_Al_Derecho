@@ -24,16 +24,16 @@
             p.mb-0 Las normas de nivel inferior deben ser coherentes con la Constitución (la norma suprema), y el poder judicial tiene la facultad de declarar inconstitucionales las normas inferiores que violen la Constitución.
           .p-4(titulo="Organización estructurada del sistema legal")
             p.mb-0 La jerarquía normativa organiza el sistema en niveles claros y definidos. Este orden permite que las leyes, decretos y otras normas sean aplicadas en forma coherente y eficaz.
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.1 La Constitución: norma de normas
+    #t_2_1.titulo-segundo(data-aos='fade-right')
+      h2 #[span 2.1] La Constitución: norma de normas
     p.mb-4 La Constitución como norma de normas, representa la evolución del constitucionalismo, desde los primeros intentos de limitar el poder absoluto, hasta un sistema donde los principios y derechos fundamentales, rigen la estructura del Estado y la vida en sociedad. La supremacía constitucional garantiza que el Estado actúe dentro de un marco legal que protege los derechos de los ciudadanos, limitando el poder y promoviendo la justicia. El siguiente video nos amplía la información sobre la historia de la Constitución.
     .mn.mb-5.bg-video.p-5
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video: Leyenda del video
-    #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.2 Leyes nacionales: estatutarias, orgánicas y ordinarias
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/0c0vtcAcK1A?si=qZU1LL_9utCIeJ1u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. La Constitución: norma de normas
+    #t_2_2.titulo-segundo(data-aos='fade-right')
+      h2 #[span 2.2] Leyes nacionales: estatutarias, orgánicas y ordinarias
     p.mb-4 La comprensión del Derecho comienza con una pregunta esencial: 
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in")
@@ -42,7 +42,7 @@
       .col-lg-4.col-7.mb-lg-0.mb-3(data-aos="zoom-in"): img(src='@/assets/curso/temas/19.png', alt='')
       .col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in")
         .tarjeta.h-100.p-4(style="background-color: #efeadd ")
-          p.mb-0 Esta unidad tiene como propósito introducir al estudiante en el análisis de las fuentes del Derecho y su jerarquía normativa, elementos que no solo son centrales para la teoría del Derecho, sino que también tienen una aplicación directa en la práctica jurídica. Comprender estas fuentes es indispensable para identificar la autoridad y legitimidad de las normas que rigen a la sociedad, así como para saber cómo y cuándo, deben aplicarse en distintos contextos.
+          p.mb-0 En palabras de García Máynez (2002), la ley es una "norma jurídica dictada, promulgada y sancionada por la autoridad pública, aún sin el consentimiento de los particulares". A lo largo de la historia, el concepto de ley ha evolucionado, adaptándose a las necesidades de diferentes contextos sociales y políticos.
     p.mb-4 A continuación, conozcamos sobre la historia de las leyes:
     .bg-video.mn.mb-5.p-5
       SlyderA(tipo='b').bg-white
@@ -56,7 +56,7 @@
         .row.p-5
           .col-lg-7.order-2
             h4 Grecia clásica
-            p La ley comenzó a asociarse con el concepto de razón y justicia. Filósofos como Platón y Aristóteles, sostenían que las leyes debían guiarse por la racionalidad y la búsqueda del bien común, no por la voluntad arbitraria de un gobernante (Castello  , 1993).
+            p La ley comenzó a asociarse con el concepto de razón y justicia. Filósofos como Platón y Aristóteles, sostenían que las leyes debían guiarse por la racionalidad y la búsqueda del bien común, no por la voluntad arbitraria de un gobernante (Castello, 1993).
           .col-lg-5.col-7.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/21.png', alt='Texto que describa la imagen')
@@ -150,8 +150,8 @@
             p.mb-0 Si el proyecto es aprobado en comisión, se presenta ante la plenaria de la respectiva cámara (Senado o Cámara de Representantes), donde se realiza un segundo debate. En esta etapa, el proyecto vuelve a ser objeto de discusión detallada. El coordinador ponente expone el proyecto y los congresistas, así como los ministros, tienen la oportunidad de expresar sus opiniones. Si bien esta fase es similar a la del debate en comisión, su alcance es mayor, porque involucra a todos los congresistas, lo cual añade un nivel de revisión democrática. Si el proyecto es aprobado, pasa a la otra cámara donde se repite el proceso. Este doble examen asegura que las normas que avanzan hacia la sanción presidencial hayan sido revisadas con rigurosidad y que cuentan con el respaldo de ambas cámaras.
           .p-4(titulo="Sanción presidencial")
             p.mb-0 Es la fase final del proceso legislativo. El proyecto de ley aprobado por ambas cámaras, es remitido al presidente de la República, para su ratificación. La sanción representa un último filtro, pues el presidente puede aceptar el proyecto o devolverlo al Congreso, con objeciones. En caso que el presidente considere que el proyecto es inconstitucional o contrario al bienestar del país, puede objetarlo, y el proyecto debe regresar al Congreso, para un nuevo análisis. Este control evita que proyectos de ley que puedan ser perjudiciales para el interés público o que violen principios constitucionales, se conviertan en ley. Una vez sancionado, el proyecto se promulga y adquiere fuerza obligatoria para todos los ciudadanos, cerrando así el ciclo legislativo.
-    #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.3 Decretos y resoluciones
+    #t_2_3.titulo-segundo(data-aos='fade-right')
+      h2 #[span 2.3] Decretos y resoluciones
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-2
         p.mb-4(data-aos="fade-right") Los decretos y resoluciones son instrumentos esenciales en la administración pública, utilizados para implementar y ejecutar las leyes en distintos niveles. Los decretos, emitidos por el presidente de la República u otros altos funcionarios, tienen un carácter normativo obligatorio y cumplen la función de desarrollar o complementar leyes, regulando situaciones específicas y facilitando su aplicación práctica. Se dividen en varias categorías, como decretos reglamentarios, que precisan el alcance de las leyes; decretos leyes, que se emiten con facultades extraordinarias; decretos legislativos, usados en estados de excepción; y decretos administrativos, que aplican disposiciones legales y constitucionales. Por otro lado, las resoluciones, emitidas por funcionarios o entidades públicas como ministerios o alcaldías, regulan aspectos más concretos y técnicos, cumpliendo con las políticas establecidas por leyes y decretos, pero con un alcance limitado y menor jerarquía. Entender las diferencias en jerarquía, alcance y función entre decretos y resoluciones es clave para comprender su papel en la estructura normativa. A continuación, en el PDF Decretos y resoluciones, se detallarán las características de estos actos administrativos.
@@ -165,13 +165,14 @@
       .col-lg-5.col-7.mb-lg-0.mb-3
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/34.png', alt='')
-    #t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 Costumbre, jurisprudencia y doctrina
+    #t_2_4.titulo-segundo(data-aos='fade-right')
+      h2 #[span 2.4] Costumbre, jurisprudencia y doctrina
     p.mb-4 La costumbre, la jurisprudencia y la doctrina, son reconocidas como fuentes del derecho las cuales complementan y enriquecen la interpretación y aplicación de las normas legales. Estas fuentes son esenciales en los sistemas jurídicos, puesto que permiten llenar vacíos normativos, adaptar el derecho a nuevas realidades sociales y asegurar una interpretación coherente y razonada de las normas. A continuación, se exploran estas fuentes con mayor profundidad y se incluyen citas de autores relevantes en el ámbito jurídico.
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
         h3 La Costumbre
-        p.mb-0 La costumbre, la jurisprudencia y la doctrina, son reconocidas como fuentes del derecho las cuales complementan y enriquecen la interpretación y aplicación de las normas legales. Estas fuentes son esenciales en los sistemas jurídicos, puesto que permiten llenar vacíos normativos, adaptar el derecho a nuevas realidades sociales y asegurar una interpretación coherente y razonada de las normas. A continuación, se exploran estas fuentes con mayor profundidad y se incluyen citas de autores relevantes en el ámbito jurídico.
+        p.mb-4 La costumbre jurídica es una práctica o comportamiento constante y uniforme que, al ser aceptado por una comunidad como obligatorio, adquiere el carácter de norma. Dicho de otra manera, la costumbre es una práctica reiterada que genera una convicción de obligatoriedad en quienes la siguen, logrando aceptación social hasta convertirse en un verdadero mandato jurídico. 
+        p.mb-4 En el derecho, existen dos tipos principales de costumbre:
       .col-lg-4.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/35.png', alt='')
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-6.mb-4(data-aos="zoom-in-up")
@@ -195,7 +196,7 @@
         .p-4.mb-4(style="background-color:#efeadd  ")
           p.mb-0 De acuerdo con Carbonell (2002), la jurisprudencia es "una fuente del derecho que contribuye a la uniformidad y certeza del ordenamiento, proporcionando un marco de referencia para la resolución de casos similares en el futuro". En Colombia, la Corte Constitucional tiene un papel fundamental en la protección de los derechos constitucionales y sus decisiones de control de constitucionalidad son de obligatorio cumplimiento, por lo que su jurisprudencia es vinculante para todas las autoridades del país (Corte Constitucional, 1993, Sentencia C-486). 
         p.mb-0  La teoría del precedente, especialmente desarrollada en los sistemas de derecho anglosajón, ha influido en el fortalecimiento de la jurisprudencia en los sistemas de derecho civil, como el colombiano. Según Guastini (1999), “la adopción de precedentes en sistemas de tradición civilista contribuye a la estabilidad del derecho y a la protección de la igualdad ante la ley, al garantizar que las decisiones judiciales sigan un mismo criterio” (p. 132). En Colombia, aunque no existe una obligación de seguir el precedente en todos los casos, la Corte Constitucional ha promovido el respeto al precedente para proteger los derechos y asegurar coherencia en el sistema.
-    h3 La Jurisprudencia
+    h3 La Doctrina
     p.mb-4 La doctrina es el conjunto de estudios, interpretaciones y opiniones de expertos en derecho que contribuyen al análisis y desarrollo de los principios y normas jurídicas. Aunque la doctrina no es vinculante, su influencia es considerable, ya que proporciona argumentos y fundamentos teóricos que enriquecen la práctica jurídica y guían a los jueces y legisladores en la interpretación del derecho. 
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
@@ -244,7 +245,23 @@
             p La doctrina es una fuente de análisis y reflexión que ayuda a los operadores jurídicos a interpretar y aplicar el derecho con un enfoque teórico y crítico.
         
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/34318?col_q=ingenier%C3%ADa__4.0&col_code=ELC034&prev=col" target="_blank" rel="noopener noreferrer") Parra, M. (2015) Cuaderno II: la norma jurídica y fuentes del derecho. Editorial: Dykinson 
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/m7eTVqszwYs?si=YVN4oAx7VDdrpiN0" target="_blank" rel="noopener noreferrer") Opinión Colombia (6 de enero de 2018) Como Nacen las Leyes y Cómo Funciona el Ordenamiento Jurídico Colombiano Primera Parte
+              
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 </template>

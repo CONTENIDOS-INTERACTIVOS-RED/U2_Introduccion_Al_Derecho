@@ -32,7 +32,7 @@
             .col-lg-auto
               img(src="@/assets/curso/temas/4.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0 Cada uno de estos enfoques ofrece una estructura adaptable a distintos tipos de conflicto y niveles de formalidad, permitiendo a las partes optar por el método más adecuado, según sus necesidades y la naturaleza del desacuerdo. Conozcamos más sobre cada uno de ellos.
+              p.mb-0 El conocimiento de las fuentes y la jerarquía del Derecho, permite al futuro abogado interpretar y aplicar las normas de manera adecuada, evitando errores que puedan comprometer la justicia o los derechos de las personas. En la práctica, cualquier operador jurídico se enfrentará a situaciones donde tendrá que determinar cuál es la norma aplicable en un caso concreto y, más importante aún, cuál es su jerarquía dentro del sistema. Sin esta comprensión, resulta imposible garantizar el respeto a los principios constitucionales y la coherencia del sistema jurídico.
 
             
   

@@ -97,7 +97,7 @@ export default {
         icono: 'far fa-file-alt',
         unidad: 'UNIDAD 2.',
         numero: '',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         desarrolloContenidos: true,
       },
     ],
